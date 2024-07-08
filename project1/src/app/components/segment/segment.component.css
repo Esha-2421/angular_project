@@ -15,12 +15,12 @@
     background: url("../../../assets/bg2.webp") no-repeat scroll;
     background-attachment: fixed;
     background-size: cover;
-    padding:100px 200px;
+    padding:100px 0px;
 }
 /* .box1{
     padding:50px 0px 50px 100px;
 } */
-.box1{
+/* .box1{
     background: rgba(218, 6, 32, 0.75);
     padding: 15px;
     border-radius: 15px;
@@ -95,4 +95,49 @@
     text-align: justify;
     overflow: hidden;
   }
-  
+   */
+.boxes:nth-child(1){
+    
+    background: rgba(218, 6, 32, 0.75);
+    padding: 15px 15px 80px 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height:250px;
+}
+.boxes:nth-child(2){
+    background: rgba(0, 131, 160, 0.75);
+    padding: 15px 15px 80px 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height:250px;
+}
+.boxes:nth-child(3){
+    background: rgba(255, 94, 0, 0.75);
+    padding: 15px 15px 80px 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height:250px;
+}
+.boxes h3{
+    
+    font-size:20px;
+    color: #fff;
+    font-family: sec;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: dotted 1px;
+    padding: 0 0 6px 0;
+    text-align: center;
+}
+.boxes p{
+    font-size:17px;
+    color: #FFF;
+    line-height:25px;
+    text-align: justify;
+    overflow: hidden;
+    padding-top:6px;
+}
+.boxes{
+    overflow: hidden;
+}

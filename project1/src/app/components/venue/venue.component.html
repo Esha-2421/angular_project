@@ -1,0 +1,29 @@
+<section class="venue">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h2>VENUES</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col venue3">
+                <button type="button" class="btn btn-primary">LOCAL</button>
+                <button type="button" class="btn btn-primary">NATIONAL</button>
+                <button type="button" class="btn btn-primary">INTERNATIONAL</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                @for (club of clubs; track $index) {
+                    <div class="col-md-4 col-12">
+                        <div class="boxes">
+                            <img src="{{club.image}}" alt="">
+                            <h3>{{club.title}}</h3>
+                            <a href="#">{{club.description}}</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

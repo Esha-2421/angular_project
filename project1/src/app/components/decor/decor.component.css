@@ -11,3 +11,6 @@
     text-shadow: -1px 6px 9px rgba(0,0,0,0.6);
     margin-bottom:15px;
 }
+.box img{
+    width: 100%;
+}

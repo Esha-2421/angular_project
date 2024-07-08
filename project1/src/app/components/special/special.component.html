@@ -1,0 +1,26 @@
+
+<section class="special">
+    <div class="container-fluid">
+        <div class="row special1">
+            <div class="col">
+                <h2>Our Speciality</h2>
+                <img src="http://rajtenthouse.in/images/decor-line.png" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="special2">
+    <div class="container">
+        <div class="row" data-aos="fade-down">
+            @for (special of specials; track $index) {
+                <div class="col-md-4 col-12">
+                    <div class="boxes">
+                        <img src="{{special.image}}" alt="">
+                        <h3>{{special.title}}</h3>
+                        <p>{{special.description}}</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

@@ -1,1 +1,18 @@
-<p>plan works!</p>
+<section class="plan">
+    <div class="container">
+        <div class="row plan1">
+            @for (plan of plans; track $index) {
+                <div class="col-md-4 col-12 plan2">
+                    <img src="{{plan.image1}}" alt="" style="padding-top:50px;">
+                    <img src="{{plan.image2}}" alt="">
+                    <h2>{{plan.tilte}}</h2>
+                    <p>{{plan.description}}</p>
+                    <img src="{{plan.image3}}" alt="">
+                    <a href="{{plan.link}}"></a>
+                    <img src="{{plan.image4}}" alt="">
+                    <img src="{{plan.image5}}" alt="">
+                </div>
+            }
+        </div>
+    </div>
+</section>

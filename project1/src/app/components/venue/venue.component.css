@@ -1,0 +1,64 @@
+.venue{
+    background:#ECECEC;
+    padding:70px 0;
+}
+.venue h2{
+    text-align: center;
+    font:normal 700 40px monospace;
+}
+.btn-primary{
+  color:white !important;
+  background:maroon !important;
+  border-radius:20px !important;
+  border:maroon !important;
+  padding:10px 25px !important;
+}
+.btn-primary:hover{
+  color:maroon !important;
+  text-decoration:none !important;
+  background:rgba(213, 180, 85,0.5) !important;
+}
+.venue3{
+  text-align: center;
+  margin:20px 0 20px 0;
+}
+.btn-primary:nth-child(2){
+  margin:0 10px 0 10px;
+}
+@media screen and (max-width:450px) {
+  
+.btn-primary:last-child{
+  margin-top:10px;
+}
+}
+.boxes img{
+  width: 100%;
+  height:250px;
+  
+  border:solid 5px #fff;
+  border-radius:20px 20px 0 0;
+}
+.boxes{
+  text-align: center;
+  background: #fff;
+  padding:0px 0 30px 0;
+  border-radius:20px;
+  margin-top:15px;
+}
+.boxes a:link,.boxes a:visited{
+  color:white;
+  text-decoration:none;
+  padding:10px 15px;
+  background:maroon;
+  border-radius:20px;
+  text-align:center;
+}
+.boxes a:hover{
+  color:maroon;
+  text-decoration:none;
+  background:rgba(213, 180, 85,0.5);
+}
+.boxes h3{
+  font-size:22px;
+  padding:10px;
+}
